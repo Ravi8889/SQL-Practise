@@ -46,4 +46,27 @@ select * from products;
  call max_procedure();
  call max_procedure();
  select * from customers1;
+ use rk;
+ call new_procedure();
+ use practise;
+ ## created the select procedure with the variable X defualt as 10;
+ call select_procedure();
+ # modifed the column name as Rk
+ call select_procedure;
+ # how to drop the stored procedures
+ # drop procedure if exists procedure_name; # this is the sytnax i followed to drop the select_procedure;
+ ## stored procedures Parameters ==> IN , OUT, INOUT.
+ call parameterin(5); # even we give the parameter as 5 but the name is "ravi" has only one row 
+ call parameterin("ravi");
+ 
+ ## new in procedures parameter creaeted
+ call parameter_in(501); # give the parameter value as 480 then we can are unable to see the one row in the table.
+ # when we select the parameter as 501 then all the paramers above 500 will be displayed.
+ call parameter_in(2012); ## product quantity is greater than > 5;
+ call parameter_in(2010);# what ever the parameter value will be given only the wehe based on where cond it executes.
+ call parameter_in(0);
+ call parameter_in(5);# here there is no where clause
+ call parameter_in(8); # only product _quantity details will be displayed
+ call parameter_in(4); #0 the product_quantity has 4  has two items.
+ 
  
