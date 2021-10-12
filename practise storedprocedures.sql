@@ -68,5 +68,19 @@ select * from products;
  call parameter_in(5);# here there is no where clause
  call parameter_in(8); # only product _quantity details will be displayed
  call parameter_in(4); #0 the product_quantity has 4  has two items.
+ call variables(); # used * operator ==> 75
+ call variables(); # used + operatro ==> 20.
+ call variables();# declared ravi as Name kiran 23 as age
+ # again modifed using the variabels
+ call variables();
+ select * from customers1;
+ call parameter_out("Italy", @rk);
+ select @rk;
+ call parameter_out("Italy",@rk);
+ select @rk;
+ ### Altering the Stored Procedures
+ call alter_storedprocedures(); # sum
+ call alter_storedprocedures(); # Avg
+ call alter_storedprocedures(0);
  
- 
+ # till now the section is completed.
