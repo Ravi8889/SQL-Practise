@@ -8,9 +8,9 @@ select count(country_name) from country;# ==> gives country_name as 9
 select count(country_id) from country;# ==>gives 9
 select count(country_id) from country_new; # ==> gives 4
 select * from country_new;
-#count() this gives the count no of values in that perticular column in that tables
-#sum()==> this gives the sum of the values in that perticular column in that tables 
-# avg() => this gives the svg of the values in that particular column in that tables 
+#count() this gives the count no of values in that perticular column in that tables.
+#sum()==> this gives the sum of the values in that perticular column in that tables. 
+#avg() => this gives the svg of the values in that particular column in that tables. 
 select * from jobs_sal;
 select sum(max_sal) from jobs_sal; #==>1500 *3 =>45000
 SELECT SUM(MIN_SAL) FROM JOBS_SAL; #==> 24000

@@ -64,4 +64,4 @@ create table if not exists country(country_id int
  #15
  create table employees(employee_id int primary key, first_name char(10),last_name char(10), email varchar(15), phone_number varchar(15), hire_date varchar(10), job_id int, salary int, commision int ,manger_id varchar(10), dept_id decimal(6,0),foreign key(dept_id, manger_id) references departments (department_id, manager_id));
  
- show tables;
+ show tabless

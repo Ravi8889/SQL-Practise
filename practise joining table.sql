@@ -49,5 +49,8 @@ select * from table1  cross join table2;# table one cross joins with the table2
 select * from table2 cross join table1;
 select * from table1;
 select member_id ,count(*) from table1 cross join table2; # total 5 member ids total count will be 30;
+select * from table1 cross join table1;# coud not cross join with the single table
+### Self Join###
+
 
 
