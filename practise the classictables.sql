@@ -1,0 +1,10 @@
+create database Portfolio;
+show databases;
+use classicmodels;
+select * from customers;
+select * from employees;
+select * from offices;
+select * from orders;
+desc offices;
+desc orders;
+desc employees;
