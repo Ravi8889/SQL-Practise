@@ -1,0 +1,10 @@
+As per industry Standards for Python and Sql programming languages Resources
+1.python==(https://youtu.be/_uQrJ0TkZlc)
+2.pyton interview Questions ==(https://www.youtube.com/watch?v=XwcJ9_hijdk&ab_channel=Intellipaat)
+	* https://www.youtube.com/watch?v=rm1C50WwYoQ&t=563s
+	* https://codingcompiler.com/python-coding-interview-questions-answers/
+3.SQl ==(https://www.youtube.com/watch?v=7S_tz1z_5bA&t=7755s&ab_channel=ProgrammingwithMosh)
+4. Sql blogs and interview questions
+	* https://www.mysqltutorial.org/mysql-window-functions/
+	* https://learnsql.com/blog/mysql-window-functions-examples/
+	* https://www.youtube.com/watch?v=a3ngELoA9h0&list=PLtPFQl_0853oNyMPC2Fd0K1uW9x41KQn6&ab_channel=CrackConcepts
